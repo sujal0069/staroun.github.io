@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selector Exercise</title>
+    <style>
+        a[target="_blank"] {
+            font-style: italic;
+            color: green;
+        }
+
+        a[href^="mailto"] {
+            text-decoration: underline;
+        }
+
+        input[type="password"] {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://example.com" target="_blank">External Link</a><br>
+    <a href="https://mysite.com/page" target="_self">Internal Link</a><br>
+    <a href="mailto:contact@example.com">Email Us</a><br><br>
+
+    <input type="text" placeholder="Enter your name"><br><br>
+    <input type="password" placeholder="Enter your password">
+</body>
+</html>
